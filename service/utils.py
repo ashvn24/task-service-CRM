@@ -37,8 +37,8 @@ def add_event_to_google_calendar(appointment):
 
     event = {
         'summary': 'Appointment for '+appointment.name,
-        'location': 'Saloon',
-        'description': 'booked for an Appointment for '+appointment.booking,
+        'location': 'St street, 789',
+        'description': 'booked for an Appointment ',
         'start': {
             'dateTime': appointment.time.isoformat(),
             'timeZone': 'UTC',
